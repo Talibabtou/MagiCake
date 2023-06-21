@@ -1,3 +1,8 @@
+// Bot's private outputs logs are in french while public outputs are in english
+// Requires also node_modules to run
+// Call your list participants holders.txt
+// There is no weighting, holders.txt must contain the number of registration proportionnal to odds
+
 console.log("début du programme");
 
 const { Client, GatewayIntentBits } = require('discord.js');
@@ -12,7 +17,7 @@ const client = new Client({
   ]
 });
 
-const token = "INSERT TOKEN";
+const token = "INSERT TOKEN"; // insert secret token given by discord here.
 
 client.on('ready', () => {
   console.log(Le bot est prêt en tant que ${client.user.tag});
