@@ -1,0 +1,1 @@
+*Inset here your holders snapshot, unique line per NFT detected so multiple holders have multiple lines with the same address*
